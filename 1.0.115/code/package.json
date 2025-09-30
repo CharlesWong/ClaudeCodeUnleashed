@@ -1,0 +1,72 @@
+{
+  "name": "@anthropic-ai/claude-code-deobfuscated",
+  "version": "1.0.115",
+  "description": "Claude Code CLI - Deobfuscated and Reorganized",
+  "main": "src/main.js",
+  "type": "module",
+  "bin": {
+    "claude": "./src/main.js"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node --watch src/main.js",
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "ink": "^4.4.1",
+    "ink-text-input": "^5.0.1",
+    "react": "^18.2.0",
+    "diff": "^5.1.0",
+    "mkdirp": "^3.0.1",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.14.2",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "inquirer": "^9.2.11",
+    "open": "^9.1.0",
+    "eventsource": "^2.0.2",
+    "turndown": "^7.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "uuid": "^9.0.1",
+    "minimatch": "^9.0.3",
+    "glob": "^10.3.10",
+    "chokidar": "^3.5.3",
+    "keytar": "^7.9.0",
+    "conf": "^11.0.2",
+    "update-notifier": "^6.0.2",
+    "semver": "^7.5.4",
+    "axios": "^1.6.0",
+    "p-limit": "^4.0.0",
+    "strip-ansi": "^7.1.0",
+    "wrap-ansi": "^8.1.0",
+    "cli-spinners": "^2.9.1",
+    "figures": "^5.0.0",
+    "supports-color": "^9.4.0",
+    "terminal-link": "^3.0.0",
+    "boxen": "^7.1.1",
+    "cli-table3": "^0.6.3",
+    "marked": "^9.1.2",
+    "marked-terminal": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "cli",
+    "terminal",
+    "anthropic",
+    "coding",
+    "assistant"
+  ],
+  "author": "Anthropic (Deobfuscated)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/claude-code.git"
+  }
+}
